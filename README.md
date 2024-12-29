@@ -11,5 +11,6 @@ Trong project này, tôi xử lý tập dữ liệu 900k bản ghi (kích thư�
 3. Dữ liệu sạch được lưu trữ trong Amazon RDS for MySQL và file .csv để phục vụ cho việc trực quan hóa và phân tích dữ liệu.
 
 4. Xây dựng trang web với Streamlit để thí sinh có thể tra cứu điểm thi và vị trí xếp hạng của khối thi nào đó ở tỉnh thí sinh dự thi và trên toàn quốc. Ngoài ra, thí sinh có thể biết được mức điểm tương đương của mình vào năm 2020 (dựa trên top điểm của thí sinh, ví dụ năm 2020, thí sinh này có mức điểm 26.5 nằm trong top 2.91% điểm khối A toàn quốc, và năm năm 2019, thí sinh chỉ cần 24.2 điểm là đã có thể nằm trong top 2.91% điểm khối A toàn quốc).
+
   Đường dẫn đến project:  https://github.com/lhduc02/Web-Project---Look-up-test-scores-and-rankings-in-Vietnam-National-High-School-Exam-2020
 
