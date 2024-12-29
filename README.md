@@ -12,7 +12,5 @@ Trong project này, tôi xử lý tập dữ liệu 900k bản ghi (kích thư�
 
 4. Xây dựng trang web (ở đây, tôi sử dụng dữ liệu thật từ điểm thi THPT Quốc gia 2023 thay vì điểm thi THPT Quốc gia 2020).
 
-Đường dẫn đến project:  https://github.com/lhduc02/Web-Project---Look-up-test-scores-and-rankings-in-Vietnam-National-High-School-Exam-2020
-
-
+  Đường dẫn đến project:  https://github.com/lhduc02/Web-Project---Look-up-test-scores-and-rankings-in-Vietnam-National-High-School-Exam-2020
 
