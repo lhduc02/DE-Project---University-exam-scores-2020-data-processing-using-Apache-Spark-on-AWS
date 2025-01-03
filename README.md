@@ -29,18 +29,23 @@ sudo yum install python3-pip -y
 
 * Cài đặt Spark trên cả các máy ảo.
     - Tải Spark từ trang chủ.
-wget https://dlcdn.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
-tar -xvf spark-3.5.3-bin-hadoop3.tgz
-sudo mv spark-3.5.3-bin-hadoop3 /usr/local/spark
+	```bash
+	wget https://dlcdn.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
+	tar -xvf spark-3.5.3-bin-hadoop3.tgz
+	sudo mv spark-3.5.3-bin-hadoop3 /usr/local/spark
+	```
     - Cấu hình biến môi trường và kiểm tra
-export SPARK_HOME=/usr/local/spark
-export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
-export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
-source ~/.bashrc
-spark-shell --version
+      ```bash
+	export SPARK_HOME=/usr/local/spark
+	export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+	export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
+	source ~/.bashrc
+	spark-shell --version
+	```
 
 * Cấu hình Spark trên các Node
     - Trên cả Master Node và Worker Node, mở file spark-env.sh:
+
     sudo nano $SPARK_HOME/conf/spark-env.sh
 
     Sau đó ghi nội dung sau vào file:
