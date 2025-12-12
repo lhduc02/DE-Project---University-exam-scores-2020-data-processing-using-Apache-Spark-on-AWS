@@ -1,0 +1,21 @@
+CREATE TABLE diem_thi_2017_2020 (
+    nam_thi INT,
+    sbd VARCHAR(20) NOT NULL,
+    toan FLOAT,
+    ngu_van FLOAT,
+    tieng_anh FLOAT,
+    lich_su FLOAT,
+    dia_ly FLOAT,
+    gdcd FLOAT,
+    khxh FLOAT,
+    sinh_hoc FLOAT,
+    vat_li FLOAT,
+    hoa_hoc FLOAT,
+    khtn FLOAT,
+    ma_tinh INT,
+    tinh VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    khu_vuc VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    so_bai_thi INT,
+    ban_khtn INT,
+    ban_khxh INT
+);
